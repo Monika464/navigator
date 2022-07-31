@@ -13,7 +13,7 @@ let kraj1 = document.getElementById('coutryform').value;
 let kod ="";
 console.log(ulica1,miasto1,kraj1);
 
-const myApiKey = "657549239094149820675x15906";
+const myApiKey = "...";
 const geolocation = `https://geocode.xyz/${ulica1}+${miasto1}+${kraj1}+${kod}?json=1&auth=${myApiKey}`
 
     fetch(geolocation)
